@@ -34,7 +34,7 @@ def eight_queens(position_list=None):
                 correct = False
 
     if correct:
-        if position_list is None: # если был кучной ввод координат
+        if position_list is None: # если был ручной ввод координат
             position_list = [] # генерируем список координат из списков x y
             for i in zip(x, y):
                 position_list.append(list(i))
